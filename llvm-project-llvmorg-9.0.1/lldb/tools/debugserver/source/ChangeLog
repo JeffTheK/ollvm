@@ -112,7 +112,7 @@
 	(RNBRemote::HandleAsyncPacket): Ditto.
 	(RNBRemote::HandleReceivedPacket): Ditto.
 	(RNBRemote::CommDataReceived): Ditto.
-	* DNB.cpp (DNBProcessLaunch): Changed to take a eror string pointer with 
+	* DNB.cpp (DNBProcessLaunch): Changed to take a error string pointer with 
 	size for more desciptive error reporting (instead of a uint32_t pointer).
 	* DNB.h (DNBProcessLaunch): Ditto.
 	* DNBError.cpp (DNBError::AsString): Now returns NULL if there is no error.
